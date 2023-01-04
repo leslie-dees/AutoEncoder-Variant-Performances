@@ -1,1 +1,3 @@
 # AutoEncoder-Variant-Performances
+This is the final project developed for ECE685: Deep Learning, at Duke University. Partnership with Owen MacKenzie on proofs and programming. This project serves to demonstrate the capabilities of Beta Variational Autoencoders (BAE) and Fisher AutoEncoders to reconstruct artificially damaged images. Images were damaged using 2 methods, random noise insertion on all pixels with varying intensities of noise inclusion as well as black box inclusions over the top of the images. KMNIST datasets were used for analysis. All development was performed in Python with PyTorch as well as numpy and matplotlib. 
+Results proved that Fisher AutoEncoders were more effective at image reconstruction than BAE.
